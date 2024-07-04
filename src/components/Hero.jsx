@@ -4,7 +4,7 @@ import TextButton from "./TextButton";
 
 const Hero = () => {
   return (
-    <div className="top-0 mx-auto mt-[-96px] flex h-screen w-full max-w-screen-xl flex-col items-center justify-center text-center text-white">
+    <div className="top-0 mx-auto mt-[-96px] flex h-screen w-full max-w-screen-xl flex-col items-center justify-center text-center text-white" id="home">
       <p className="p-2 font-bold uppercase text-emerald-400">
         Growing with data analytics
       </p>

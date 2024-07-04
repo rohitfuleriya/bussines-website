@@ -24,7 +24,7 @@ class CardInfo {
 
 const Card = ({ cardInfo }) => {
   return (
-    <div className="my-4 w-full rounded-xl p-4 shadow-2xl duration-300 hover:scale-105">
+    <div className="my-4 w-full rounded-xl p-4 shadow-2xl duration-300 hover:scale-105" id="resource">
       <img src={cardInfo.imageSource} alt="" className="mx-auto w-20" />
       <h2 className="py-8 text-center text-2xl font-bold">{cardInfo.title}</h2>
       <p className="text-center text-4xl font-bold">{cardInfo.price}</p>

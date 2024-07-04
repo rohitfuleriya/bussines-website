@@ -14,8 +14,10 @@ const Navbar = () => {
       <ReactLogo type="spin" size={48} />
       <div className="hidden md:flex">
         <p className="header-link">Home</p>
-        <p className="header-link">Account</p>
-        <p className="header-link">Sign In</p>
+        <p className="header-link">Company</p>
+        <p className="header-link">Resources</p>
+        <p className="header-link">About</p>
+        <p className="header-link">Contact</p>
         <p className="header-link">Sign Up</p>
       </div>
 
